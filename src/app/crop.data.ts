@@ -3,7 +3,7 @@ import { Crop } from "./crop.model";
 export const CROPS: Crop[] = [
   {
     name: "Rice", // I want this Rice
-    checked: true,
+    checked: false,
     district: "Thane",
     subCategory: [
       {
@@ -20,7 +20,7 @@ export const CROPS: Crop[] = [
   },
   {
     name: "Rice", // also this one but on clicking on single Checkbox with name as Rice
-    checked: true,
+    checked: false,
     district: "Nashik",
     subCategory: [
       {
@@ -37,7 +37,7 @@ export const CROPS: Crop[] = [
   },
   {
     name: "Wheat",
-    checked: true,
+    checked: false,
     district: "Nashik",
     subCategory: [
       {
@@ -54,7 +54,7 @@ export const CROPS: Crop[] = [
   },
   {
     name: "Barley",
-    checked: true,
+    checked: false,
     district: "Ratnagiri",
     subCategory: [
       {
